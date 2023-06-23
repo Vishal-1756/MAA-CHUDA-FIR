@@ -44,8 +44,8 @@ def NewChat(bot,message):
 async def hello(bot, message):
     fucx = message.from_user.mention
     kimd = message.from_user.id
-    await message.reply_animation(animation="https://te.legra.ph/file/1610d483b185188253566.mp4", caption=f"Hello {fucx}, This Is A Test Bot And A Useless Telegram Bot Ever Made!\n\n Thanks For Using This Bot!",
-                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Me 鹿", url="https://t.me/semxxxrobot?start=true")], [InlineKeyboardButton(text=f"OWNER", user_id=f"{kimd}")]]))
+    await message.reply_animation(animation="https://te.legra.ph/file/1610d483b185188253566.mp4", caption=f"Hello {fucx}, ᴛʜɪs ɪs ᴀ ᴍᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ʙᴏᴛ ɪᴛ's ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴜsɪᴄ ᴀɴᴅ ᴘʟᴀʏ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ʙᴏᴛ ʙʏ @ᴛᴜJʜᴇ_ᴋʏᴀ_ᴋᴀʀɴᴀ_ʜᴀɪ_ᴀᴘɴᴀ_ᴋᴀᴀᴍ_ᴋᴀʀ!\n\n Thanks For Using This Bot!",
+                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Me 鹿", url="https://t.me/MUSIC_DOWNLOAD_RBOT?start=true")], [InlineKeyboardButton(text=f"OWNER", user_id=f"{kimd}")]]))
     
 logging.info("Your Bot started 🎉")
 print("Ja Bhai Gand Mara Ab")
